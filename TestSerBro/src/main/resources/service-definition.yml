@@ -1,0 +1,25 @@
+serives:
+  - name: testBroker
+    id: firstTestBr
+    description: MySQL service for application development and testing  
+    max_db_per_node: 250
+    bindable: true
+  
+plans:
+  - name: one
+    id: planOne
+    description: Test plan one
+    volumeSize: 10
+    volumeUnit: MIN
+    metadata:
+      cost: 0.0
+  
+  - name: two
+    id: planTwo
+    description: Test plan TWO
+    volumeSize: 5
+    volumeUnit: SEC
+    metadata:
+      cost: 10.0
+      
+
